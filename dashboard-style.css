@@ -5,15 +5,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-main {
   display: flex;
+  height: 100vh;
 }
+
 .side-nav {
   display: flex;
   flex-direction: column;
-
-  height: 87vh;
   padding: 64px 94px;
   background-color: #2f80ed;
 }
@@ -54,9 +52,12 @@ main {
   font-weight: 700;
   cursor: pointer;
 }
-
+main {
+  flex-grow: 1;
+}
 .content {
-  width: 70%;
+  box-sizing: border-box;
+  width: 100%;
   padding: 65px 65px 29px 65px;
 }
 .title {
