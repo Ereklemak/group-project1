@@ -7,25 +7,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="side-nav">
-      <div class="analitic">
-        <img src="./icons/show_chart.svg" alt="chart" />
-        <h3>Simple Analytics</h3>
-      </div>
-      <nav class="nav-list">
-        <a href="./dashboard.html">
-          <img src="./icons/dashboard.svg" alt="dashboard" /> Dashboard</a
-        >
-        <a href="settings.html">
-          <img src="./icons/settings.svg" alt="setting" /> Settings</a
-        >
-      </nav>
-      <div class="logout">
-        <img src="./icons/Vector.png" alt="log-out" />
-        <button class="logout-btn">Logout</button>
-      </div>
-    </div>
     <main>
+      <div class="side-nav">
+        <div class="analitic">
+          <img src="./icons/show_chart.svg" alt="chart" />
+          <h3>Simple Analytics</h3>
+        </div>
+        <nav class="nav-list">
+          <a href="./dashboard.html">
+            <img src="./icons/dashboard.svg" alt="dashboard" /> Dashboard</a
+          >
+          <a href="settings.html">
+            <img src="./icons/settings.svg" alt="setting" /> Settings</a
+          >
+        </nav>
+        <div class="logout">
+          <img src="./icons/Vector.png" alt="log-out" />
+          <button class="logout-btn">Logout</button>
+        </div>
+      </div>
       <div class="content">
         <h2 class="title">Dashboard</h2>
         <span class="headline-text">views</span>
@@ -44,16 +44,24 @@
           </div>
         </div>
         <h3 class="headline-text">Pages</h3>
-        <div class="page-input"><span>/</span> <span>500</span></div>
-        <div class="page-input"><span>/sample-post</span> <span>20</span></div>
-        <div class="page-input"><span>/sample-post2</span> <span>50</span></div>
-        <div class="page-input"><span>/about</span> <span>100</span></div>
-        <h3 class="headline-text">Country/State</h3>
-        <div class="page-input">
-          <span>India/AndhraPradesh</span> <span>500</span>
+        <div class="pages-text">
+          <span>/</span> <span class="float-right">500</span>
         </div>
-        <div class="page-input">
-          <span>India/Tamilnadu</span> <span>20</span>
+        <div class="pages-text">
+          <span>/sample-post</span> <span class="float-right">20</span>
+        </div>
+        <div class="pages-text">
+          <span>/sample-post2</span> <span class="float-right">50</span>
+        </div>
+        <div class="pages-text">
+          <span>/about</span> <span class="float-right">100</span>
+        </div>
+        <h3 class="headline-text">Country/State</h3>
+        <div class="pages-text">
+          <span>India/AndhraPradesh</span> <span class="float-right">500</span>
+        </div>
+        <div class="pages-text">
+          <span>India/Tamilnadu</span> <span class="float-right">20</span>
         </div>
       </div>
     </main>
