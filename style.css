@@ -5,30 +5,35 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  display: flex;
+}
+.side-nav {
+  display: inline-block;
+  vertical-align: top;
+  padding: 64px;
+  background-color: #2f80ed;
+  box-sizing: border-box;
+  color: white;
   height: 100vh;
 }
-
-.side-nav {
-  display: flex;
-  flex-direction: column;
-  padding: 64px 94px;
-  background-color: #2f80ed;
+/* .content {
+  display: inline-block;
+  width: 70%;
+  padding: 44px;
 }
 .analitic h3 {
   color: white;
 }
-.analitic {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.analitic h3 {
+  display: inline;
 }
 .analitic img {
+  display: inline;
   margin-right: 14px;
 }
 .nav-list {
   margin-top: 157px;
 }
+
 .nav-list a {
   display: block;
   color: white;
@@ -37,7 +42,6 @@ body {
   font-weight: 700;
 }
 .logout {
-  margin-top: auto;
   cursor: pointer;
 }
 .logout img {
@@ -53,13 +57,9 @@ body {
   cursor: pointer;
 }
 main {
-  flex-grow: 1;
+  display: inline;
 }
-.content {
-  box-sizing: border-box;
-  width: 100%;
-  padding: 65px 65px 29px 65px;
-}
+
 .title {
   color: #515151;
   font-size: 24px;
@@ -70,14 +70,12 @@ main {
   font-size: 24px;
   font-weight: 700;
 }
-.view-count {
-  display: flex;
-  justify-content: space-around;
-}
+
 .view-block {
-  text-align: center;
+  display: inline-block;
+  margin-right: 13%;
   border-radius: 25px;
-  padding: 40px 75px;
+  padding: 40px 80px;
   background-color: #333;
 }
 .view-block span {
@@ -87,17 +85,19 @@ main {
 .count {
   font-size: 36px;
 }
-
+.page-input span {
+  left: 100px;
+}
 .page-input {
-  display: flex;
-  justify-content: space-between;
+  display: inline-block;
+  width: 100%;
   font-size: 18px;
   font-weight: 700;
   color: #4f4f4f;
   border: 1px solid #bdbdbd;
   padding: 19px 39px;
 }
-/* .dashboard-page {
+.dashboard-page {
   display: flex;
 
   margin-top: 153px;
