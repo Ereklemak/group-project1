@@ -27,13 +27,20 @@ body {
 }
 .analitic h3 {
   display: inline;
+  vertical-align: middle;
 }
 .analitic img {
   display: inline;
+  vertical-align: middle;
   margin-right: 14px;
 }
 .nav-list {
   margin-top: 157px;
+}
+.nav-list img,
+a {
+  vertical-align: middle;
+  margin-right: 15px;
 }
 
 .float-right {
@@ -52,11 +59,13 @@ body {
 }
 .logout img {
   margin-right: 4px;
+  vertical-align: middle;
 }
 .logout-btn {
   border: none;
   background-color: unset;
   color: white;
+  vertical-align: middle;
   font-family: Poppins;
   font-size: 18px;
   font-weight: 700;
