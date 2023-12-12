@@ -22,17 +22,17 @@ body {
   width: 70%;
   padding: 44px;
 }
-.analitic h3 {
-  color: white;
+.analitic {
+  margin-right: 14px;
 }
 .analitic h3 {
   display: inline;
   vertical-align: middle;
+  color: white;
 }
 .analitic img {
   display: inline;
   vertical-align: middle;
-  margin-right: 14px;
 }
 .nav-list {
   margin-top: 157px;
