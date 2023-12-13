@@ -118,3 +118,53 @@ a {
   font-weight: 700;
 }
 /* DASHBOARD */
+
+/* SETTINGS */
+.setting-content {
+  display: inline-block;
+  padding: 30px;
+}
+.box {
+  border: 1px solid #828282;
+  text-align: center;
+  background: #fff;
+  padding: 24px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.check {
+  border: 1px solid #828282;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  width: 400px;
+  height: 100%;
+}
+.label {
+  font-weight: bold;
+}
+
+#checkbox {
+  display: inline;
+  vertical-align: middle;
+  margin-left: 230px;
+  width: 40px;
+  height: 40px;
+}
+#email {
+  margin-left: 50px;
+  border: none;
+}
+#password {
+  border: none;
+  margin-left: 130px;
+}
+.save-btn {
+  border: none;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px;
+  width: 150px;
+}
