@@ -14,13 +14,14 @@ body {
   background-color: #2f80ed;
   box-sizing: border-box;
   color: white;
-  height: 100vh;
+  height: 100%;
 }
 /* DASHBOARD  */
 .content {
   display: inline-block;
   width: 70%;
   padding: 44px;
+  height: 100%;
 }
 .analitic {
   margin-right: 14px;
@@ -85,9 +86,9 @@ a {
 
 .view-block {
   display: inline-block;
-  margin-left: 12%;
+  margin-left: 10%;
   border-radius: 25px;
-  padding: 40px 80px;
+  padding: 40px 70px;
   background-color: #333;
 }
 .view-block span {
@@ -97,9 +98,7 @@ a {
 .count {
   font-size: 36px;
 }
-.pages-text span {
-  left: 100px;
-}
+
 .pages-text {
   display: inline-block;
   box-sizing: border-box;
@@ -108,10 +107,9 @@ a {
   font-weight: 700;
   color: #4f4f4f;
   border: 1px solid #bdbdbd;
-  padding: 19px 39px;
+  padding: 20px 39px;
 }
 .dashboard-page {
-  display: flex;
   margin-top: 153px;
 }
 .dashboard-page a {
