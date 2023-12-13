@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="side-nav">
+        <div class="analitic">
+          <img src="./icons/show_chart.svg" alt="chart" />
+          <h3>Simple Analytics</h3>
+        </div>
+        <nav class="nav-list">
+          <a href="./dashboard.html">
+            <img src="./icons/dashboard.svg" alt="dashboard" /> Dashboard</a
+          >
+          <a href="settings.html">
+            <img src="./icons/settings.svg" alt="setting" /> Settings</a
+          >
+        </nav>
+        <div class="logout">
+          <img src="./icons/Vector.png" alt="log-out" />
+          <button class="logout-btn">Logout</button>
+        </div>
+      </div>
+      <div class="setting-content">
+        <h2 class="title">Settings</h2>
+        <form class="form-group">
+          <div class="box check">
+            <label class="label" for="checkbox">Collect data</label>
+            <input type="checkbox" name="checkbox" id="checkbox" />
+          </div>
+          <div class="box mail">
+            <label for="email" class="label">mail@example.com</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="box pass">
+            <label for="password" class="label">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <button class="save-btn">Save</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
