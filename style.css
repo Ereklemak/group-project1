@@ -42,6 +42,7 @@ body {
 a {
   vertical-align: middle;
   margin-right: 15px;
+  height: 100%;
 }
 
 .float-right {
@@ -167,4 +168,46 @@ a {
   font-size: 24px;
   padding: 20px;
   width: 150px;
+}
+
+/* index page */
+
+.black-buttons {
+  border: none;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+}
+
+.main-content {
+  display: inline-block;
+  width: 70%;
+  height: 100%;
+}
+
+.top-text {
+  padding-left: 650px;
+  font-size: 28px;
+}
+
+.main-image {
+  display: inline-block;
+}
+
+.bottom-text {
+  font-size: 28px;
+  margin-left: 50px;
+}
+
+.side-nav {
+  height: 860px;
+}
+
+.main-image {
+  width: 700px;
+  margin-left: 150px;
 }
